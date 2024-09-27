@@ -1,0 +1,13 @@
+PUT http://localhost:8080/api/payment
+Content-Type: application/json
+
+{
+  "client_id": "1",
+  "payment_items": [
+    {
+      "payment_id": "1",
+      "payment_value": 1111,
+      "payment_status": ""
+    }
+  ]
+}
